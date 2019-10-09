@@ -1,0 +1,81 @@
+.Appy {
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  background-color: rgb(34, 34, 34);
+  color: rgb(250, 250, 250);
+  margin-left: 2%;
+  padding: 0;
+
+}
+.App-title {
+  
+}
+
+@media (max-width: 900px) {
+  .Timers {
+    flex-direction: column;
+
+  }
+}
+@media (max-width: 900px) {
+  .Stopwatch {
+  }
+}
+.Countdown,
+.Stopwatch {
+
+  border: 2px solid grey;
+  border-radius: 4px;
+  background-color: rgb(22, 27, 31);
+  box-shadow: 0 3px 6px rgb(12, 12, 12);
+}
+.Countdown {
+}
+
+.Countdown-header,
+.Stopwatch-header {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+button {
+  background-color: #202b33;
+  border: solid 1px transparent;
+  border-radius: 4px;
+  padding: 10px 20px;
+  color: #ffffff;
+  font-size: 16px;
+  margin: 0 5px;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #106ba3;
+}
+.Stopwatch button {
+  padding: 12px 32px;
+  font-size: 20px;
+}
+.Stopwatch-display {
+  padding: 40px 0;
+  font-size: 48px;
+}
+.Stopwatch-text {
+}
+.Countdown-display {
+}
+.Countdown-display button {
+  border: solid 1px transparent;
+  border-radius: 2px;
+  color: #ffffff;
+
+}
+.Countdown-display button:hover {
+  background-color: #106ba3;
+}
+.Countdown-label {
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+.Countdown-time {
+  font-size:0.6rem;
+}

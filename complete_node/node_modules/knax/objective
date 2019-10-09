@@ -1,0 +1,19 @@
+#!/usr/bin/env coffee
+
+Knax = require('nez').objective 'Knax', 
+
+    nimbal: 'http://localhost:10101'
+
+    class: 'Core Module'
+
+    category: 'Configuration'
+
+    description: """
+
+        Dynamically load locally defined 
+        or packaged modules as plugins  
+
+    """, (spec) ->
+
+        spec.link 'spec/knax_spec'
+

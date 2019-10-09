@@ -1,0 +1,21 @@
+.new {
+    display :flex;
+    position: relative;
+}
+.box{
+    width:100%;
+    height:100%;
+}
+ 
+.red{
+    background-color:#f00;
+}
+.green{
+    background:#0f0;
+}
+.blue{
+    background-color:#00f;
+}
+.bin {
+    word-wrap:break-word;
+}

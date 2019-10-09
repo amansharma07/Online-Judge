@@ -1,0 +1,40 @@
+.new {
+	display :flex;
+	position: relative;
+}
+.box{
+	width:100%;
+	height:100%;
+}
+ 
+.red{
+	background-color:#f00;
+}
+.green{
+	background:#0f0;
+}
+.blue{
+	background-color:#00f;
+}
+.bin {
+	word-wrap:break-word;
+	
+}
+.navbars {
+  overflow: hidden;
+  background-color: #333;
+  font-family: Arial;
+}
+
+.navbars a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  align-content: right;
+}
+.navbars a:hover, .dropdown:hover .dropbtn {
+  background-color: red;
+}

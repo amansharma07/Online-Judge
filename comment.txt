@@ -1,0 +1,5 @@
+1. Sign In -> Google
+2. Nav Bar not on Sign In and Register
+3. Problem Card font size
+4. Search Box js and css
+

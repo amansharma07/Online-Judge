@@ -1,0 +1,42 @@
+{
+  "name": "node",
+  "version": "1.0.0",
+  "main": "script.js",
+  "dependencies": {
+    "@babel/polyfill": "^7.4.4",
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "^1.18.3",
+    "clarifai": "^2.9.0",
+    "compile-run": "^2.3.2",
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "heroku": "^7.22.1",
+    "knax": "0.0.3",
+    "knex": "^0.16.3",
+    "nodemon": "^1.18.9",
+    "pg": "^7.8.0"
+  },
+  "devDependencies": {
+    "@babel/polyfill": "^7.4.4",
+    "@babel/preset-env": "^7.5.5",
+    "babel-core": "^6.26.3",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "cross-env": "^5.2.0",
+    "gulp": "^4.0.2",
+    "gulp-babel": "^6.1.2",
+    "gulp-jscs": "^3.0.2",
+    "gulp-jscs-stylish": "^1.4.0",
+    "gulp-jshint": "^2.0.1",
+    "jshint": "^2.9.2",
+    "jshint-stylish": "^2.2.0",
+    "map-stream": "0.0.6"
+  },
+  "scripts": {
+    "start": "nodemon script1.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}

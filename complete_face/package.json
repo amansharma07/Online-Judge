@@ -1,0 +1,56 @@
+{
+  "name": "face",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "clarifai": "^2.9.0",
+    "compile-run": "^2.3.2",
+    "knex": "^0.16.3",
+    "namor": "^1.1.2",
+    "pg": "^7.8.0",
+    "prop-types": "^15.6.1",
+    "react": "^16.7.0",
+    "react-ace": "^7.0.4",
+    "react-alert": "^5.4.0",
+    "react-alert-template-basic": "^1.0.0",
+    "react-charts": "^2.0.0-beta.4",
+    "react-dom": "^16.7.0",
+    "react-linechart": "^1.1.12",
+    "react-particles-js": "^2.4.2",
+    "react-redux": "^7.1.1",
+    "react-scripts": "2.1.3",
+    "react-table": "^6.10.3",
+    "react-tilt": "^0.1.4",
+    "react-transition-group": "^2.3.1",
+    "redux": "^4.0.4",
+    "redux-logger": "^3.0.6",
+    "tachyons": "^4.11.1",
+    "window-size": "^1.1.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+  "main": "script.js",
+  "devDependencies": {
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "remarkable": "^1.7.1",
+    "jquery": "^3.1.1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
